@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="1st_screen.css" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>The Red Cards</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="header-logo">
+        <img src="./logo.png" class="logo" alt="Logo" />
+      </div>
+
+      <div class="form-section">
+        <div class="card card-info">
+          <h1>Submission</h1>
+          <div class="pre">
+            <p class="left-text">
+              All details of submissions will be kept strictly private and
+              confidential by Mailman and will not be used for any purpose other
+              than judging Red Card 2018 winners.
+            </p>
+          </div>
+          <div class="pre">
+            <h2>Applications will close on the 15th December 2017</h2>
+          </div>
+        </div>
+
+        <div class="card card-form">
+          <form>
+            <div class="input-fields">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email Address" />
+              <input type="number" placeholder="Phone Number" />
+              <input type="text" placeholder="Organisation" />
+
+              <!-- Dropdown menu -->
+              <select>
+                <option value="">Select Country</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Iran">Iran</option>
+                <option value="China">China</option>
+                <option value="United States">United States</option>
+                <option value="Afghanistan">Afghanistan</option>
+              </select>
+            </div>
+
+            <h3>Which Award</h3>
+            <p class="subtext">
+              (Please tick and provide details for all the awards you would like
+              to be nominated for)
+            </p>
+
+            <div class="checkbox-section">
+              <div class="award-option">
+                <label>
+                  <input
+                    type="checkbox"
+                    name="award"
+                    value="Best Livestream"
+                    class="styled-checkbox"
+                  />
+                  Best Livestream
+                </label>
+                <textarea
+                  name="livestream-details"
+                  maxlength="150"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+
+              <div class="award-option">
+                <label>
+                  <input
+                    type="checkbox"
+                    name="award"
+                    value="Best Tour Campaign"
+                    class="styled-checkbox"
+                  />
+                  Best Tour Campaign
+                </label>
+                <textarea
+                  maxlength="150"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+
+              <div class="award-option">
+                <label>
+                  <input
+                    type="checkbox"
+                    name="award"
+                    value="Best Sponsor Activation"
+                    class="styled-checkbox"
+                  />
+                  Best Sponsor Activation
+                </label>
+                <textarea
+                  maxlength="150"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+
+              <div class="award-option">
+                <label>
+                  <input
+                    type="checkbox"
+                    name="award"
+                    value="Best Use of Technology"
+                    class="styled-checkbox"
+                  />
+                  Best Use of Technology
+                </label>
+                <textarea
+                  maxlength="150"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+
+              <div class="award-option">
+                <label>
+                  <input
+                    type="checkbox"
+                    name="award"
+                    value="Best Online Campaign"
+                    class="styled-checkbox"
+                  />
+                  Best Online Campaign
+                </label>
+                <textarea
+                  maxlength="150"
+                  placeholder="Description & Results (max. 150 words)"
+                ></textarea>
+              </div>
+
+              <div class="submit-wrapper">
+                <button class="submit-btn" type="submit">
+                  <i class="fa-solid fa-check"> ✓</i> Submission Successful
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
