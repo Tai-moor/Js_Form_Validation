@@ -295,10 +295,9 @@ select:focus {
 
 .error-message {
   color: #ffa500;
-font-weight: 600;
+  font-weight: 600;
   font-size: 1em;
   margin-top: 3px;
-
 }
 
 .msg {
